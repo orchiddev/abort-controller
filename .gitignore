@@ -1,0 +1,10 @@
+# Generic
+node_modules/
+package-lock.json
+
+# Log files
+logs/
+*.log
+
+# Documentation
+docs/out/

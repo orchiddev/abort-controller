@@ -1,0 +1,33 @@
+{
+	"name": "@camelliajs/abort-controller",
+	"version": "0.1.2",
+	"description": "",
+	"main": "lib/index.js",
+	"types": "./typings/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"gendocs": "node_modules/.bin/docgen --source lib --custom docs/index.yml --output docs/docs.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/camelliajs/abort-controller.git"
+	},
+	"keywords": [
+		"abort",
+		"abortcontroller",
+		"controller",
+		"signal",
+		"camellia"
+	],
+	"author": "Nyalter",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/camelliajs/abort-controller/issues"
+	},
+	"homepage": "https://github.com/camelliajs/abort-controller#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"discord.js-docgen": "discordjs/docgen",
+		"jsdoc": "^3.6.4"
+	}
+}
